@@ -1,0 +1,96 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 234px;
+    max-width: 1452px;
+}
+
+/* ----------------------------------------------------
+-------------------------------------------------------
+============== Navigation Bar Styles ==================
+-------------------------------------------------------
+---------------------------------------------------- */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* ----------------------------------------------------
+-------------------------------------------------------
+================= Banner Area Styles ==================
+-------------------------------------------------------
+---------------------------------------------------- */
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-title {
+    
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    padding-left: 295px;
+    padding-right: 295px;
+}
+
+.banner-description {
+
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-left: 280px;
+    padding-right: 280px;
+
+}
+
+.btn-submit {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 24px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.banner-image img{
+    width: 1338px;
+}
