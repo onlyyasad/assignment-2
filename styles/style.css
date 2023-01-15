@@ -505,3 +505,141 @@ footer p {
     color: #424242;
     padding: 30px 20%;
 }
+
+/* ---------------------------------------------------
+Responsive Styles
+--------------------------------------------------- */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px 5%;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-menu{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .banner-title {
+        margin-bottom: 32px;
+        font-weight: 700;
+        font-size: 28px;
+
+    }
+
+    .banner-info{
+        font-size: 15px;
+    }
+    main{
+        padding: 20px 5%;
+    }
+
+    .quick-list-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-images{
+        width: 100%;
+    }
+
+    .list-content{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    .list-title{
+        font-size: 30px;
+    }
+
+    .features-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .features-info{
+        width: 100%;
+    }
+    .line-and-title .vl{
+        height: 62px;
+    }
+    .features-title{
+        font-size: 27px;
+    }
+
+    .features-image{
+        width: 100%;
+    }
+    .features-image img{
+        width: 100%;
+        position: static;
+    }
+
+    .some-facts-header{
+        padding-right: 0;
+    }
+
+    .some-facts-title{
+        font-size: 30px;
+    }
+
+    .facts-box-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .box-size{
+        width: 75%;
+    }
+    .experts-container{
+        padding: 0 3%;
+    }
+    .experts-header{
+        padding-right: 0;
+    }
+
+    .experts-title{
+        font-size: 30px;
+    }
+
+    .experts-box-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsors-container{
+        margin: 50px 0 0 0;
+    }
+
+    .sponsors-header{
+        padding: 0 3%;
+    }
+
+    .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+
+    footer{
+        margin: 40px 3%;
+    }
+
+    footer p{
+        font-size: 16px;
+        padding: 15px;
+    }
+}
