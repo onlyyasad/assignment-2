@@ -121,7 +121,7 @@ header {
 main {
     max-width: 1366px;
     padding: 50px 171px;
-    margin: 40px 0 600px 0;
+    margin: 40px 0 60px 0;
 }
 
 /* ----------------------------------------------------
@@ -131,7 +131,8 @@ Quick List Area Styles
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 40%; */
+    padding: 0 20px 0 20px;
+
 }
 
 .list-images {
@@ -190,12 +191,12 @@ Features Area Styles
 }
 
 .features-info {
-    width: 50%;
+    width: 45%;
 }
 
 .line-and-title {
     display: flex;
-    margin: 0;
+    margin: 0 0 20px 0;
     align-items: center;
 }
 
@@ -216,21 +217,209 @@ Features Area Styles
     font-size: 35px;
     color: #131313;
     padding-right: 130px;
+    margin-left: 20px;
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #1313132d;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    margin-bottom: 10px;
+}
+
+.box-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
 
 .features-image {
-    width: 50%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .features-image img {
-    width: 100%;
+    width: 95%;
+    position: absolute;
+    right: 0;
 }
 
 .experience {
     height: 100px;
     border: 0;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FF900E;
     color: #FFFFFF;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 27px;
 
+
+}
+
+/* ----------------------------------------------------
+Some Facts Styles
+---------------------------------------------------- */
+
+.some-facts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.some-facts-header {
+    margin: 35px 0;
+    padding-right: 47%;
+}
+
+.some-facts-header>div {
+    margin-bottom: 10px;
+}
+
+.some-facts-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.some-facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.facts-box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.facts-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    width: 15%;
+    padding: 20px;
+}
+
+.facts-box h3 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+}
+
+.facts-box p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+}
+
+.facts-box:hover {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+
+/* ----------------------------------------------------
+Sponsors Area Styles
+---------------------------------------------------- */
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+}
+
+.sponsors-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 25%;
+}
+
+.sponsors-header>div {
+    margin-bottom: 15px;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.sponsors-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.sponsors-logo>div {
+    margin: 0 35px;
+}
+
+.sponsors-logo img {
+    filter: grayscale(100%);
+    width: 100%;
+
+}
+
+/* ----------------------------------------------------
+Footer Area Styles
+---------------------------------------------------- */
+
+footer {
+    background: #FFF4E7;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    margin: 40px 171px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #424242;
+    padding: 30px 20%;
 }
