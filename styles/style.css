@@ -350,6 +350,73 @@ Some Facts Styles
 }
 
 /* ----------------------------------------------------
+Extra Section: Our Experts Styles
+---------------------------------------------------- */
+
+.experts-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #fcf1e1;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 10%;
+}
+
+.experts-header{
+    margin: 35px 0;
+    padding-right: 40%;
+}
+
+.experts-header > div{
+    margin-bottom: 10px;
+}
+
+.experts-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.experts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experts-box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experts-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.experts-box img{
+    width: 100%;
+}
+
+.experts-box div{
+    margin-bottom: 10px;
+}
+
+.experts-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.experts-box h3 a{
+    text-decoration: none;
+    color: #FF900E;
+}
+/* ----------------------------------------------------
 Sponsors Area Styles
 ---------------------------------------------------- */
 
